@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+}
+nav{
+    margin: 10px 304px;
+    word-spacing: 128px;
+    margin-left: 284px;
+    
+}
+nav a:hover{
+    color: #ff274b;
+}
+.logo{
+    float: left;
+    color: aqua;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+section{
+    margin: 10%;
+}
+img{
+    margin-right: 10%;
+    width: 363px;
+    border: 5px solid rgb(17, 235, 199);
+}
+span{
+    color: #ff274b;
+}
+.content{
+    flex-grow: 1;
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-texts{
+    position: relative;
+    bottom:  40px;
+}
+
+
+.container-images{
+    width: 50%;
+    height: 95%;
+    position: relative;
+    align-self: flex-end;
+    
+  
+
+}
+
+
+h1{
+    color: aqua;
+}
+h2{
+    color: blanchedalmond;
+}
+h3{
+    color: blanchedalmond;
+}
+.container-texts2{
+    position: relative;
+    margin-left: 540px;
+    margin-top: -270px;
+}
+.container-images2{
+    display: flex;
+ margin-left: -12%;
+ margin-right: 24%; 
+
+}
+.container-texts3{
+    color: blanchedalmond;
+}
+label.angl{
+    margin-left: 18%;
+}
+ label.node{
+    margin-left: 21%;
+ }
+.footer p {
+    color: blanchedalmond;
+}
+.footer libellé{
+    color: blanchedalmond;
+}
+b {
+    margin-left: 80%;
+    color: #ff274b;
+}
+
+

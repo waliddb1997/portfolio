@@ -1,136 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>html portfolio</title>
-  </head>
 
-  <body>
-    
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="walid.css" />
+</head>
+
+<body>
+  <header id="header">
+    <logo class="logo">W@lid</logo>
+
     <nav>
-      <table id="header" width="100%">
-        <tr>
-          <td>
-            <table width="90%">
-              <tr>
-                <td>
-                  <h1>Dabbaghi Walid</h1>
-                </td>
-
-                <td width="15%"></td>
-
-                <td>
-                  <a href="#Home"> Home</a>
-                </td>
-
-                <td>|</td>
-
-                <td>
-                  <a href="#About"> About</a>
-                </td>
-
-                <td>|</td>
-
-                <td>
-                  <a href="#Work"> Work</a>
-                </td>
-
-                <td>|</td>
-
-                <td>
-                  <a href="Noir et Blanc Photographie Infographique CV.pdf"> Resume</a>
-                </td>
-
-                <td>|</td>
-
-                <td>
-                  <a href="#Contact"> contact</a>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
+      <a href="#Home"> Home</a>
+      <a href="#About"> About</a>
+      <a href="#Work"> Work</a>
+      <a href="Noir et Blanc Photographie Infographique CV.pdf"> Resume</a>
+      <a href="#Contact"> contact</a>
     </nav>
-<section>
+  </header>
+  <section>
+    <div class="content">
+      <div class="container-texts">
+        <h1 id="Home">hello</h1>
+        <h2>My name is <span>Dabbaghi Walid</span></h2>
+        <h3>
+          développeur full stack <br />
+          senior <span>html css js</span> ...
+        </h3>
+      </div>
+      <div class="container-images">
+        <img src="imgweb.png" alt="image" />
+      </div>
+    </div>
+  </section>
+  <section>
+    <h1 id="About">About Me</h1>
+    <div class="container-images">
+      <img src="img1.jpg" alt="image" />
+    </div>
+    <div class="content2">
+      <div class="container-texts2">
+        <h1 id="Home">LICENSE IN COMPUTER NETWORKS</h1>
+        <h2>PASSIONATE OF THE FIELD OF <span>TELECOMMUNICATIONS, WEB DEVELOPMENT, VERSATILE,</span>DYNAMIC AND WITH A GREAT CAPACITY OF
+          UNDERSTANDING AND ADAPTATION.</h2>
 
-<a id="About"></a>
-<h2>About Me</h2>
-<table>
-  <tr>
-    <td>
-      <img src="293220963_2620902174710852_646610728325246257_n.jpg" alt="text" width="315" height="315">
+      </div>
+    </div>
+  </section>
+  <section>
+    <h1 id="Work">Work</h1>
+    <div class="container-images2">
+      <img src="PHP-logo.svg.png" alt="image" />
+      <img src="angular.png" alt="angular">
+      <img src="node.png" alt="node">
+    </div>
+    <div class="content3">
+      <div class="container-texts3">
+        <h1 id="Home"></h1>
+        <label>Php:</label>
+        <progress value="80" max="100">
+          <h1> 32% </h1>
+        </progress>
+        <label class="angl">Angular:</label>
+        <progress value="32" max="100">
+          <h1> 32% </h1>
+        </progress>
+        <label class="node">Node js:</label>
+        <progress value="32" max="100">
+          <h1> 32% </h1>
+        </progress>
 
-    </td>
-    <td>
-     <p>LICENSE IN COMPUTER NETWORKS
-     PASSIONATE OF THE FIELD OF TELECOMMUNICATIONS, VERSATILE, DYNAMIC AND WITH A GREAT CAPACITY OF UNDERSTANDING AND ADAPTATION.</p>
-    </td>
-  </tr>
-</table>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <h1 id="Contact">Contact</h1>
+    <libellé>Your comment :</libellé>
 
-</section>
-<section>
-<a id="Work"></a>
-<h2>Work</h2>
-<table>
-<tr>
-  <td>
-    <iframe width="315" height="315" src="https://www.youtube.com/embed/olJOZp57FWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-  </td>
-  <td>
-    <p>Web and Android application development to control connected IOT objects</p>
-  </td>
-</tr>
-</table>
-</section>
+    <input type="textarea">
 
-   
-   <footer>
-    <a id="Contact"></a>
-    <h2>Contact</h2>
-    <table
-      id="Contact"
-      
-      width="100%"
-      
-    >
-      <tr>
-        <td>
-          <table
-            
-            width="90%"
-            
-          >
-            <tr>
-              <td width="80%" >
-                <libellé>Your comment :</libellé>
+    </input>
+    <button>Send a Message</button>
+    <p> ©Copyright by W@lid D@bb@ghi.</p>
+    <p>number phone +21600000000</p>
+    <a href="#header">
 
-                <input type="textarea">
-               
-                  </input>
-                  <button>Send a Message</button>
-                 <p> ©Copyright by W@lid D@bb@ghi.</p>
-                 <p>number phone +21600000000</p>
-                
-              </td>
+      <b>TOP</b>
 
-              <td width="10%">
-                
-                  <a href="#header">
-                    
-                      <b>TOP</b>
-                    
-                  </a>
-                
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-   </footer>
+    </a>
+    </form>
 
-  </body>
+
+  </footer>
+
+</body>
+
 </html>
